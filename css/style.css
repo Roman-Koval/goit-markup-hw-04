@@ -543,3 +543,22 @@ footer {
     padding-top: 9px;
 }
 
+.social-icons-footer {
+    display: inline-block;
+    padding-top: 0;
+    width: 206px;
+    margin-left: 70px;
+}
+
+.social-footer-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
