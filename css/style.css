@@ -620,6 +620,12 @@ footer {
     padding-top: 9px;
 }
 
+.social-icons-footer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
 /* .social-icons-footer {
     display: block;
     margin-bottom: 20px;
