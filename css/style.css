@@ -579,13 +579,19 @@ button:focus {
 }
 
 /*FOOTER*/
+
 footer {
     padding: 60px 0;
     display: flex;
-    flex-direction: column;
+    
     background: var(--back-gray);
 }
 
+.footer-left {
+    width: 25%;
+    display: inline-block;
+    
+}
 
 .logo-footer {
     font-family: Raleway;
@@ -616,17 +622,9 @@ footer {
 }
 
 .social-icons-footer {
+    vertical-align: top;
     display: inline-block;
-    
-    
-    
-    
-}
-
-.container .footer-left .social-icons-footer {
-    display: inline-block;
-    
-    
+    padding-top: 12px;
 }
 
 .social-footer-item {
@@ -641,8 +639,6 @@ footer {
     color: #FFFFFF;
     padding-bottom: 20px;
     
+    
 }
 
-/* .container .social-icons-footer {
-  display: flex;
-  } */
