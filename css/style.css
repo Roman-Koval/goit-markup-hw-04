@@ -262,7 +262,7 @@ h1 {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .make-list {
@@ -287,8 +287,7 @@ h1 {
     font-weight: bold;
     font-size: 36px;
     color: var(--graphite-text);
-    
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -296,7 +295,7 @@ h1 {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
+   
 }
 
 .team {
@@ -308,16 +307,16 @@ h1 {
     margin-right: 30px;
 }
 
-/* .teamboxing {
+.teamboxing {
+    margin-bottom: 30px;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 .socials {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
     
 }
 
@@ -357,6 +356,10 @@ h1 {
     fill: #fff;
 }
 
+.container-team-title {
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
 
 .name {
     font-style: normal;
@@ -366,8 +369,9 @@ h1 {
     text-align: center;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    /* padding-top: 30px;
+    padding-bottom: 10px; */
+    margin-bottom: 10px;
 }
 
 .specialty {
@@ -378,7 +382,7 @@ h1 {
     text-align: center;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-bottom: 16px;
+    /* padding-bottom: 16px; */
 }
 
 /*CLIENTS*/
@@ -559,7 +563,18 @@ button:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.working li:nth-child(3n + 2) {
+.working {
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.working .work-card {
+    flex-basis: calc(100%/3-30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* .working li:nth-child(3n + 2) {
     margin-left: 30px;   
 }
 
@@ -580,7 +595,7 @@ button:focus {
 .working li:nth-child(6) {
     margin-top: 30px;
     margin-bottom: 30px;
-}
+} */
 
 /*FOOTER*/
 
@@ -598,11 +613,13 @@ footer {
 }
 
 .logo-footer {
+    display: block;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     color: var(--white-text);
+    margin-bottom: 20px;
    
     
 }
@@ -611,7 +628,6 @@ footer {
     font-weight: normal;
     font-size: 14px;
     color: var(--white-text);
-    padding-top: 20px;
     
 }
 
